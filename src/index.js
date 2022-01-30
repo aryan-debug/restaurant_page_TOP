@@ -7,8 +7,6 @@ import "./styles/menu_page.css";
 import "./styles/contact.css";
 
 
-document.getElementsByTagName("body").style.margin = "0px";
-
 function home_page() {
     const home_content = document.createElement("div");
     const heading = document.createElement("h1");

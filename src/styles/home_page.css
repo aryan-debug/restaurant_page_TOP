@@ -14,3 +14,7 @@
   color: white;
   font-size: 10em;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
