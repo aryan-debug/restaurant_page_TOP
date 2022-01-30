@@ -1,0 +1,23 @@
+#contact-container {
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/contact.png") no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  font-size: 3em;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+#phone-container {
+  position: relative;
+}
+.fa-phone {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 7px;
+  left: -70px;
+}

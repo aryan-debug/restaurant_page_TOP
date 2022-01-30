@@ -1,0 +1,54 @@
+#logo {
+  font-size: 2em;
+}
+
+.header {
+  display: flex;
+  color: white;
+  width: 85%;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Lora", serif;
+  z-index: 10;
+}
+.header-right {
+  margin-right: 200px;
+  display: flex;
+  gap: 50px;
+}
+.header-right p {
+  cursor: pointer;
+  position: relative;
+}
+
+.header-right p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 100%;
+  background: white;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 250ms ease-in;
+}
+.header-right p:hover::after {
+  transform: scaleX(1);
+}
+
+#menu-active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 100%;
+  background: white;
+  transform: scaleX(1);
+  transform-origin: left;
+}
