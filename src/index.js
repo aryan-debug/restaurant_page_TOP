@@ -6,6 +6,7 @@ import "./styles/header.css";
 import "./styles/menu_page.css";
 import "./styles/contact.css";
 
+//123
 
 function home_page() {
     const home_content = document.createElement("div");
