@@ -1,10 +1,14 @@
 
 import { make_header } from "./components/header";
-import { main_course_menu, main_course_page, make_grid, render_menu } from "./components/make_grid";
+import {make_grid} from "./components/make_grid";
 import "./styles/home_page.css";
 import "./styles/header.css";
 import "./styles/menu_page.css";
 import "./styles/contact.css";
+
+
+document.getElementsByTagName("body").style.margin = "0px";
+
 function home_page() {
     const home_content = document.createElement("div");
     const heading = document.createElement("h1");
